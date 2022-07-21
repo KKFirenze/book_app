@@ -16,6 +16,13 @@
             "flutterMode": "profile"
         },
         {
+            "name": "book_app chrome",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "chrome",
+            "args": ["--web-renderer", "html"]
+        },
+        {
             "name": "book_app (release mode)",
             "request": "launch",
             "type": "dart",
